@@ -125,6 +125,7 @@ Repository-wide **Read and write permissions** are not required merely to authen
 
 
 ## The two axes at a glance
+## The two axes at a glance
 
 Copilot auth and the **Workflow permissions** setting (Settings → Actions → General) point in opposite directions. They are never substitutes for each other.
 
