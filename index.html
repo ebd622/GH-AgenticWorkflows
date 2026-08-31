@@ -65,6 +65,18 @@
               <span aria-hidden="true">&#8594;</span>
             </button>
           </li>
+          <li>
+            <button
+              class="daily-update-trigger"
+              type="button"
+              aria-haspopup="dialog"
+              aria-controls="august-31-dialog"
+              data-dialog-trigger
+            >
+              <span>31st of August</span>
+              <span aria-hidden="true">&#8594;</span>
+            </button>
+          </li>
         </ul>
       </nav>
     </aside>
@@ -249,6 +261,30 @@
           No. gh-aw itself is <strong>free and open source</strong>. You pay only your
           AI provider&rsquo;s standard inference rates (or consume Copilot quota) plus
           GitHub Actions compute minutes.
+        </p>
+      </article>
+    </dialog>
+
+    <dialog
+      class="daily-update-dialog"
+      id="august-31-dialog"
+      aria-labelledby="august-31-question"
+      aria-describedby="august-31-answer"
+    >
+      <article class="daily-update-dialog-content">
+        <header class="daily-update-dialog-header">
+          <p>Daily Update / 31st of August</p>
+          <form method="dialog">
+            <button class="dialog-close" type="submit" aria-label="Close dialog" title="Close dialog">
+              <span aria-hidden="true">&#10005;</span>
+            </button>
+          </form>
+        </header>
+        <h2 id="august-31-question">Can I use MCP servers with agentic workflows?</h2>
+        <p id="august-31-answer">
+          Yes. <strong>Model Context Protocol</strong> servers can be configured in
+          workflow frontmatter to extend workflows with custom tools, integrations,
+          and data sources.
         </p>
       </article>
     </dialog>
