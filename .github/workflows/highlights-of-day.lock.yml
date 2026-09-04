@@ -52,8 +52,8 @@
 
 name: "Highlights of the Day"
 on:
-  schedule:
-    - cron: "36 */6 * * *"  # Friendly format: every 6 hours (scattered)
+  # schedule:
+  #   - cron: "36 */6 * * *"  # Friendly format: every 6 hours (scattered)
   workflow_dispatch:
     inputs:
       aw_context:
